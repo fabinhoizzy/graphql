@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Switch, Route 
+    Switch, Route
 } from 'react-router-dom';
 
 import Home from './pages/Home';
@@ -8,10 +8,10 @@ import SignIn from './pages/Signin';
 
 
 export default function Router() {
-    return(
+    return (
         <Switch>
-            <Route exact path = { [' ', '/'] } component = {Home} />
-            <Route exact path = '/sign-in' component = {SignIn} />
+            <Route exact path={[' ', '/']} component={Home} />
+            <Route exact path='/sign-in' component={SignIn} />
         </Switch>
     )
 }

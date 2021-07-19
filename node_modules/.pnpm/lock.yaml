@@ -2,6 +2,10 @@ lockfileVersion: 5.3
 
 specifiers:
   esm: ^3.2.25
+  graphql: ^15.5.1
+
+dependencies:
+  graphql: 15.5.1
 
 devDependencies:
   esm: 3.2.25
@@ -12,3 +16,8 @@ packages:
     resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==}
     engines: {node: '>=6'}
     dev: true
+
+  /graphql/15.5.1:
+    resolution: {integrity: sha512-FeTRX67T3LoE3LWAxxOlW2K3Bz+rMYAC18rRguK4wgXaTZMiJwSUwDmPFo3UadAKbzirKIg5Qy+sNJXbpPRnQw==}
+    engines: {node: '>= 10.x'}
+    dev: false

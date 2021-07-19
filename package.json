@@ -19,5 +19,8 @@
     "url": "https://github.com/fabinhoizzy/graphql/issues"
   },
   "homepage": "https://github.com/fabinhoizzy/graphql#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "graphql": "^15.5.1"
+  }
 }
